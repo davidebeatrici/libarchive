@@ -299,7 +299,7 @@ struct rpm_context {
 		uint64_t	n_inodes;
 	};
 	struct rpm_file_info	*files;		/* Indexed by fx. */
-	struct rpm_inode_info	*inodes;	/* Indexed by ino (-1). */
+	struct rpm_inode_info	*inodes;	/* Indexed by ino. */
 };
 
 #endif
